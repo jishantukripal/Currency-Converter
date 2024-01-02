@@ -1,0 +1,133 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 10px;
+  background:  linear-gradient(135deg, #100276, #d25fff);
+}
+
+.wrapper{
+  width: 550px;
+  padding: 50px;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper header{
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+  color: #100276;
+}
+
+
+.wrapper form{
+  margin: 40px 0 20px 0;
+}
+
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+form p{
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+form input{
+  height: 50px;
+  font-size: 20px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+
+form input:focus{
+  padding: 0 14px;
+  border: 2px solid #675AFE;
+}
+
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-list .select{
+  display: flex;
+  width: 175px;
+  height: 55px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+.select img{
+  max-width: 41px;
+}
+
+.select select{
+  width: auto;
+  font-size: 26px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.select select::-webkit-scrollbar{
+  width: 8px;
+}
+
+.select select::-webkit-scrollbar-track{
+  background: #fff;
+}
+
+.select select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+
+.drop-list .icon{
+  cursor: pointer;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+form .exchange-rate{
+  font-size: 28px;
+  margin: 20px 0 30px;
+  color: blue;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+form button{
+  height: 52px;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(135deg, #100276, #d25fff);
+  transition: 0.3s ease;
+  margin-top: 1px;
+}
+
+form button:hover{
+  background: linear-gradient(135deg, #d25fff, #100276);
+}
