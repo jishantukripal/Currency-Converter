@@ -25,10 +25,12 @@ Clone this repository:
 
 ```bash
 # Get the code
-git clone https://github.com/your-username/Currency-Converter.git
+git clone https://github.com/jishantukripal/Currency-Converter.git
 
 # Move to the folder
 cd Currency-Converter
+
+Run(Using Live Server)
 ```
 
 
